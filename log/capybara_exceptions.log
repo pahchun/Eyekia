@@ -1,0 +1,281 @@
+# Logfile created on 2016-04-12 07:05:20 -0700 by logger.rb/47272
+D, [2016-04-12T07:53:35.441340 #4155] DEBUG -- : undefined method `title' for #<Review:0x007fa58bf546b8>
+D, [2016-04-12T07:53:35.461855 #4155] DEBUG -- : ["app/views/admins/reviews/index.html.erb:11:in `block in _app_views_admins_reviews_index_html_erb___3488574173792267863_70174514634660'", "app/views/admins/reviews/index.html.erb:10:in `_app_views_admins_reviews_index_html_erb___3488574173792267863_70174514634660'"]
+D, [2016-04-12T08:00:07.669964 #4155] DEBUG -- : undefined local variable or method `item' for #<#<Class:0x007fa59484b660>:0x007fa59173f6c0>
+D, [2016-04-12T08:00:07.671681 #4155] DEBUG -- : ["app/views/admins/reviews/index.html.erb:29:in `_app_views_admins_reviews_index_html_erb___3488574173792267863_70174543311240'"]
+D, [2016-04-12T08:06:29.237272 #4155] DEBUG -- : undefined local variable or method `review' for #<#<Class:0x007fa595aebea0>:0x007fa5921596b0>
+D, [2016-04-12T08:06:29.263054 #4155] DEBUG -- : ["app/views/admins/reviews/index.html.erb:19:in `block in _app_views_admins_reviews_index_html_erb___3488574173792267863_70174548607320'", "app/views/admins/reviews/index.html.erb:9:in `_app_views_admins_reviews_index_html_erb___3488574173792267863_70174548607320'"]
+D, [2016-04-12T08:06:34.285861 #4155] DEBUG -- : undefined local variable or method `review' for #<#<Class:0x007fa595aebea0>:0x007fa5925824a8>
+D, [2016-04-12T08:06:34.287457 #4155] DEBUG -- : ["app/views/admins/reviews/index.html.erb:19:in `block in _app_views_admins_reviews_index_html_erb___3488574173792267863_70174550787860'", "app/views/admins/reviews/index.html.erb:9:in `_app_views_admins_reviews_index_html_erb___3488574173792267863_70174550787860'"]
+D, [2016-04-12T08:09:27.906008 #4155] DEBUG -- : undefined local variable or method `review' for #<#<Class:0x007fa595aebea0>:0x007fa5912eb970>
+D, [2016-04-12T08:09:27.907879 #4155] DEBUG -- : ["app/views/admins/reviews/index.html.erb:19:in `block in _app_views_admins_reviews_index_html_erb___3488574173792267863_70174541038940'", "app/views/admins/reviews/index.html.erb:9:in `_app_views_admins_reviews_index_html_erb___3488574173792267863_70174541038940'"]
+D, [2016-04-12T08:29:50.496658 #7153] DEBUG -- : 
+
+================================================================================
+An HTTP request has been made that VCR does not know how to handle:
+  PUT https://ikea-reviews.s3.amazonaws.com/uploads/user/profile_photo/12/photo.jpg
+
+There is currently no cassette in use. There are a few ways
+you can configure VCR to handle this request:
+
+  * If you're surprised VCR is raising this error
+    and want insight about how VCR attempted to handle the request,
+    you can use the debug_logger configuration option to log more details [1].
+  * If you want VCR to record this request and play it back during future test
+    runs, you should wrap your test (or this portion of your test) in a
+    `VCR.use_cassette` block [2].
+  * If you only want VCR to handle requests made while a cassette is in use,
+    configure `allow_http_connections_when_no_cassette = true`. VCR will
+    ignore this request since it is made when there is no cassette [3].
+  * If you want VCR to ignore this request (and others like it), you can
+    set an `ignore_request` callback [4].
+
+[1] https://www.relishapp.com/vcr/vcr/v/3-0-1/docs/configuration/debug-logging
+[2] https://www.relishapp.com/vcr/vcr/v/3-0-1/docs/getting-started
+[3] https://www.relishapp.com/vcr/vcr/v/3-0-1/docs/configuration/allow-http-connections-when-no-cassette
+[4] https://www.relishapp.com/vcr/vcr/v/3-0-1/docs/configuration/ignore-request
+================================================================================
+
+
+D, [2016-04-12T08:29:50.578414 #7153] DEBUG -- : []
+D, [2016-04-12T08:29:52.898948 #7153] DEBUG -- : 
+
+================================================================================
+An HTTP request has been made that VCR does not know how to handle:
+  PUT https://ikea-reviews.s3.amazonaws.com/uploads/user/profile_photo/13/photo.jpg
+
+There is currently no cassette in use. There are a few ways
+you can configure VCR to handle this request:
+
+  * If you're surprised VCR is raising this error
+    and want insight about how VCR attempted to handle the request,
+    you can use the debug_logger configuration option to log more details [1].
+  * If you want VCR to record this request and play it back during future test
+    runs, you should wrap your test (or this portion of your test) in a
+    `VCR.use_cassette` block [2].
+  * If you only want VCR to handle requests made while a cassette is in use,
+    configure `allow_http_connections_when_no_cassette = true`. VCR will
+    ignore this request since it is made when there is no cassette [3].
+  * If you want VCR to ignore this request (and others like it), you can
+    set an `ignore_request` callback [4].
+
+[1] https://www.relishapp.com/vcr/vcr/v/3-0-1/docs/configuration/debug-logging
+[2] https://www.relishapp.com/vcr/vcr/v/3-0-1/docs/getting-started
+[3] https://www.relishapp.com/vcr/vcr/v/3-0-1/docs/configuration/allow-http-connections-when-no-cassette
+[4] https://www.relishapp.com/vcr/vcr/v/3-0-1/docs/configuration/ignore-request
+================================================================================
+
+
+D, [2016-04-12T08:29:52.902600 #7153] DEBUG -- : []
+D, [2016-04-12T08:31:26.874989 #7290] DEBUG -- : 
+
+================================================================================
+An HTTP request has been made that VCR does not know how to handle:
+  PUT https://ikea-reviews.s3.amazonaws.com/uploads/user/profile_photo/19/photo.jpg
+
+There is currently no cassette in use. There are a few ways
+you can configure VCR to handle this request:
+
+  * If you're surprised VCR is raising this error
+    and want insight about how VCR attempted to handle the request,
+    you can use the debug_logger configuration option to log more details [1].
+  * If you want VCR to record this request and play it back during future test
+    runs, you should wrap your test (or this portion of your test) in a
+    `VCR.use_cassette` block [2].
+  * If you only want VCR to handle requests made while a cassette is in use,
+    configure `allow_http_connections_when_no_cassette = true`. VCR will
+    ignore this request since it is made when there is no cassette [3].
+  * If you want VCR to ignore this request (and others like it), you can
+    set an `ignore_request` callback [4].
+
+[1] https://www.relishapp.com/vcr/vcr/v/3-0-1/docs/configuration/debug-logging
+[2] https://www.relishapp.com/vcr/vcr/v/3-0-1/docs/getting-started
+[3] https://www.relishapp.com/vcr/vcr/v/3-0-1/docs/configuration/allow-http-connections-when-no-cassette
+[4] https://www.relishapp.com/vcr/vcr/v/3-0-1/docs/configuration/ignore-request
+================================================================================
+
+
+D, [2016-04-12T08:31:26.877351 #7290] DEBUG -- : []
+D, [2016-04-12T08:31:28.508403 #7290] DEBUG -- : 
+
+================================================================================
+An HTTP request has been made that VCR does not know how to handle:
+  PUT https://ikea-reviews.s3.amazonaws.com/uploads/user/profile_photo/20/photo.jpg
+
+There is currently no cassette in use. There are a few ways
+you can configure VCR to handle this request:
+
+  * If you're surprised VCR is raising this error
+    and want insight about how VCR attempted to handle the request,
+    you can use the debug_logger configuration option to log more details [1].
+  * If you want VCR to record this request and play it back during future test
+    runs, you should wrap your test (or this portion of your test) in a
+    `VCR.use_cassette` block [2].
+  * If you only want VCR to handle requests made while a cassette is in use,
+    configure `allow_http_connections_when_no_cassette = true`. VCR will
+    ignore this request since it is made when there is no cassette [3].
+  * If you want VCR to ignore this request (and others like it), you can
+    set an `ignore_request` callback [4].
+
+[1] https://www.relishapp.com/vcr/vcr/v/3-0-1/docs/configuration/debug-logging
+[2] https://www.relishapp.com/vcr/vcr/v/3-0-1/docs/getting-started
+[3] https://www.relishapp.com/vcr/vcr/v/3-0-1/docs/configuration/allow-http-connections-when-no-cassette
+[4] https://www.relishapp.com/vcr/vcr/v/3-0-1/docs/configuration/ignore-request
+================================================================================
+
+
+D, [2016-04-12T08:31:28.511058 #7290] DEBUG -- : []
+D, [2016-04-12T08:33:38.780161 #7420] DEBUG -- : 
+
+================================================================================
+An HTTP request has been made that VCR does not know how to handle:
+  PUT https://ikea-reviews.s3.amazonaws.com/uploads/user/profile_photo/59/photo.jpg
+
+There is currently no cassette in use. There are a few ways
+you can configure VCR to handle this request:
+
+  * If you're surprised VCR is raising this error
+    and want insight about how VCR attempted to handle the request,
+    you can use the debug_logger configuration option to log more details [1].
+  * If you want VCR to record this request and play it back during future test
+    runs, you should wrap your test (or this portion of your test) in a
+    `VCR.use_cassette` block [2].
+  * If you only want VCR to handle requests made while a cassette is in use,
+    configure `allow_http_connections_when_no_cassette = true`. VCR will
+    ignore this request since it is made when there is no cassette [3].
+  * If you want VCR to ignore this request (and others like it), you can
+    set an `ignore_request` callback [4].
+
+[1] https://www.relishapp.com/vcr/vcr/v/3-0-1/docs/configuration/debug-logging
+[2] https://www.relishapp.com/vcr/vcr/v/3-0-1/docs/getting-started
+[3] https://www.relishapp.com/vcr/vcr/v/3-0-1/docs/configuration/allow-http-connections-when-no-cassette
+[4] https://www.relishapp.com/vcr/vcr/v/3-0-1/docs/configuration/ignore-request
+================================================================================
+
+
+D, [2016-04-12T08:33:38.782511 #7420] DEBUG -- : []
+D, [2016-04-12T08:33:40.810317 #7420] DEBUG -- : 
+
+================================================================================
+An HTTP request has been made that VCR does not know how to handle:
+  PUT https://ikea-reviews.s3.amazonaws.com/uploads/user/profile_photo/60/photo.jpg
+
+There is currently no cassette in use. There are a few ways
+you can configure VCR to handle this request:
+
+  * If you're surprised VCR is raising this error
+    and want insight about how VCR attempted to handle the request,
+    you can use the debug_logger configuration option to log more details [1].
+  * If you want VCR to record this request and play it back during future test
+    runs, you should wrap your test (or this portion of your test) in a
+    `VCR.use_cassette` block [2].
+  * If you only want VCR to handle requests made while a cassette is in use,
+    configure `allow_http_connections_when_no_cassette = true`. VCR will
+    ignore this request since it is made when there is no cassette [3].
+  * If you want VCR to ignore this request (and others like it), you can
+    set an `ignore_request` callback [4].
+
+[1] https://www.relishapp.com/vcr/vcr/v/3-0-1/docs/configuration/debug-logging
+[2] https://www.relishapp.com/vcr/vcr/v/3-0-1/docs/getting-started
+[3] https://www.relishapp.com/vcr/vcr/v/3-0-1/docs/configuration/allow-http-connections-when-no-cassette
+[4] https://www.relishapp.com/vcr/vcr/v/3-0-1/docs/configuration/ignore-request
+================================================================================
+
+
+D, [2016-04-12T08:33:40.813223 #7420] DEBUG -- : []
+D, [2016-04-12T12:02:38.662188 #18002] DEBUG -- : undefined local variable or method `new_user_session' for #<ItemsController:0x007fcc699e44f8>
+D, [2016-04-12T12:02:38.685359 #18002] DEBUG -- : ["app/controllers/items_controller.rb:99:in `authorize_user'"]
+D, [2016-04-12T14:02:23.939565 #24310] DEBUG -- : undefined method `authorized?' for #<AdminsController:0x007f9a0efc02d8>
+D, [2016-04-12T14:02:23.959433 #24310] DEBUG -- : []
+D, [2016-04-12T14:02:24.837706 #24310] DEBUG -- : undefined method `authorized?' for #<AdminsController:0x007f9a11b080f8>
+D, [2016-04-12T14:02:24.839582 #24310] DEBUG -- : []
+D, [2016-04-12T14:02:25.478949 #24310] DEBUG -- : undefined method `authorized?' for #<AdminsController:0x007f9a11e20768>
+D, [2016-04-12T14:02:25.480759 #24310] DEBUG -- : []
+D, [2016-04-12T14:02:26.027527 #24310] DEBUG -- : undefined method `authorized?' for #<AdminsController:0x007f9a11b3ad28>
+D, [2016-04-12T14:02:26.029826 #24310] DEBUG -- : []
+D, [2016-04-12T14:02:26.544460 #24310] DEBUG -- : undefined method `authorized?' for #<AdminsController:0x007f9a11990540>
+D, [2016-04-12T14:02:26.546106 #24310] DEBUG -- : []
+D, [2016-04-12T14:02:27.252355 #24310] DEBUG -- : undefined method `authorized?' for #<AdminsController:0x007f9a0e7f0d78>
+D, [2016-04-12T14:02:27.253988 #24310] DEBUG -- : []
+D, [2016-04-12T14:02:27.912885 #24310] DEBUG -- : undefined method `authorized?' for #<AdminsController:0x007f9a11771638>
+D, [2016-04-12T14:02:27.914439 #24310] DEBUG -- : []
+D, [2016-04-12T14:02:28.600538 #24310] DEBUG -- : undefined method `authorized?' for #<AdminsController:0x007f9a111d9e78>
+D, [2016-04-12T14:02:28.602045 #24310] DEBUG -- : []
+D, [2016-04-12T14:02:29.158237 #24310] DEBUG -- : undefined method `authorized?' for #<Admins::UsersController:0x007f9a11e11bc8>
+D, [2016-04-12T14:02:29.159921 #24310] DEBUG -- : []
+D, [2016-04-12T14:03:36.657037 #24393] DEBUG -- : /Users/wendyhchun/challenges/ikea_reviews/app/controllers/items_controller.rb:102: syntax error, unexpected keyword_end, expecting end-of-input
+D, [2016-04-12T14:03:36.671681 #24393] DEBUG -- : []
+D, [2016-04-12T14:03:37.358418 #24393] DEBUG -- : /Users/wendyhchun/challenges/ikea_reviews/app/controllers/items_controller.rb:102: syntax error, unexpected keyword_end, expecting end-of-input
+D, [2016-04-12T14:03:37.360096 #24393] DEBUG -- : []
+D, [2016-04-12T14:03:37.882369 #24393] DEBUG -- : /Users/wendyhchun/challenges/ikea_reviews/app/controllers/items_controller.rb:102: syntax error, unexpected keyword_end, expecting end-of-input
+D, [2016-04-12T14:03:37.883964 #24393] DEBUG -- : []
+D, [2016-04-12T14:03:38.324134 #24393] DEBUG -- : /Users/wendyhchun/challenges/ikea_reviews/app/controllers/items_controller.rb:102: syntax error, unexpected keyword_end, expecting end-of-input
+D, [2016-04-12T14:03:38.325865 #24393] DEBUG -- : []
+D, [2016-04-12T14:03:38.764231 #24393] DEBUG -- : /Users/wendyhchun/challenges/ikea_reviews/app/controllers/items_controller.rb:102: syntax error, unexpected keyword_end, expecting end-of-input
+D, [2016-04-12T14:03:38.765973 #24393] DEBUG -- : []
+D, [2016-04-12T14:03:39.177227 #24393] DEBUG -- : /Users/wendyhchun/challenges/ikea_reviews/app/controllers/items_controller.rb:102: syntax error, unexpected keyword_end, expecting end-of-input
+D, [2016-04-12T14:03:39.178842 #24393] DEBUG -- : []
+D, [2016-04-12T14:03:39.594528 #24393] DEBUG -- : /Users/wendyhchun/challenges/ikea_reviews/app/controllers/items_controller.rb:102: syntax error, unexpected keyword_end, expecting end-of-input
+D, [2016-04-12T14:03:39.596129 #24393] DEBUG -- : []
+D, [2016-04-12T14:03:40.015077 #24393] DEBUG -- : /Users/wendyhchun/challenges/ikea_reviews/app/controllers/items_controller.rb:102: syntax error, unexpected keyword_end, expecting end-of-input
+D, [2016-04-12T14:03:40.016686 #24393] DEBUG -- : []
+D, [2016-04-12T14:03:40.417054 #24393] DEBUG -- : /Users/wendyhchun/challenges/ikea_reviews/app/controllers/items_controller.rb:102: syntax error, unexpected keyword_end, expecting end-of-input
+D, [2016-04-12T14:03:40.418653 #24393] DEBUG -- : []
+D, [2016-04-12T14:03:41.871885 #24393] DEBUG -- : /Users/wendyhchun/challenges/ikea_reviews/app/controllers/items_controller.rb:102: syntax error, unexpected keyword_end, expecting end-of-input
+D, [2016-04-12T14:03:41.873450 #24393] DEBUG -- : []
+D, [2016-04-12T14:03:42.431568 #24393] DEBUG -- : /Users/wendyhchun/challenges/ikea_reviews/app/controllers/items_controller.rb:102: syntax error, unexpected keyword_end, expecting end-of-input
+D, [2016-04-12T14:03:42.433473 #24393] DEBUG -- : []
+D, [2016-04-12T14:03:43.145932 #24393] DEBUG -- : /Users/wendyhchun/challenges/ikea_reviews/app/controllers/items_controller.rb:102: syntax error, unexpected keyword_end, expecting end-of-input
+D, [2016-04-12T14:03:43.147970 #24393] DEBUG -- : []
+D, [2016-04-12T14:03:43.687648 #24393] DEBUG -- : /Users/wendyhchun/challenges/ikea_reviews/app/controllers/items_controller.rb:102: syntax error, unexpected keyword_end, expecting end-of-input
+D, [2016-04-12T14:03:43.689438 #24393] DEBUG -- : []
+D, [2016-04-12T14:03:44.061011 #24393] DEBUG -- : /Users/wendyhchun/challenges/ikea_reviews/app/controllers/items_controller.rb:102: syntax error, unexpected keyword_end, expecting end-of-input
+D, [2016-04-12T14:03:44.062439 #24393] DEBUG -- : []
+D, [2016-04-12T14:03:44.503894 #24393] DEBUG -- : /Users/wendyhchun/challenges/ikea_reviews/app/controllers/items_controller.rb:102: syntax error, unexpected keyword_end, expecting end-of-input
+D, [2016-04-12T14:03:44.505549 #24393] DEBUG -- : []
+D, [2016-04-12T14:03:45.035120 #24393] DEBUG -- : /Users/wendyhchun/challenges/ikea_reviews/app/controllers/items_controller.rb:102: syntax error, unexpected keyword_end, expecting end-of-input
+D, [2016-04-12T14:03:45.036693 #24393] DEBUG -- : []
+D, [2016-04-12T14:03:45.423788 #24393] DEBUG -- : /Users/wendyhchun/challenges/ikea_reviews/app/controllers/items_controller.rb:102: syntax error, unexpected keyword_end, expecting end-of-input
+D, [2016-04-12T14:03:45.425328 #24393] DEBUG -- : []
+D, [2016-04-12T14:03:46.179425 #24393] DEBUG -- : /Users/wendyhchun/challenges/ikea_reviews/app/controllers/items_controller.rb:102: syntax error, unexpected keyword_end, expecting end-of-input
+D, [2016-04-12T14:03:46.181058 #24393] DEBUG -- : []
+D, [2016-04-12T14:03:46.601697 #24393] DEBUG -- : /Users/wendyhchun/challenges/ikea_reviews/app/controllers/items_controller.rb:102: syntax error, unexpected keyword_end, expecting end-of-input
+D, [2016-04-12T14:03:46.603403 #24393] DEBUG -- : []
+D, [2016-04-12T14:03:47.006898 #24393] DEBUG -- : /Users/wendyhchun/challenges/ikea_reviews/app/controllers/items_controller.rb:102: syntax error, unexpected keyword_end, expecting end-of-input
+D, [2016-04-12T14:03:47.008544 #24393] DEBUG -- : []
+D, [2016-04-12T14:03:47.423316 #24393] DEBUG -- : /Users/wendyhchun/challenges/ikea_reviews/app/controllers/items_controller.rb:102: syntax error, unexpected keyword_end, expecting end-of-input
+D, [2016-04-12T14:03:47.424920 #24393] DEBUG -- : []
+D, [2016-04-12T14:03:47.830690 #24393] DEBUG -- : /Users/wendyhchun/challenges/ikea_reviews/app/controllers/items_controller.rb:102: syntax error, unexpected keyword_end, expecting end-of-input
+D, [2016-04-12T14:03:47.832490 #24393] DEBUG -- : []
+D, [2016-04-12T14:03:48.398569 #24393] DEBUG -- : /Users/wendyhchun/challenges/ikea_reviews/app/controllers/items_controller.rb:102: syntax error, unexpected keyword_end, expecting end-of-input
+D, [2016-04-12T14:03:48.400170 #24393] DEBUG -- : []
+D, [2016-04-12T14:03:48.823585 #24393] DEBUG -- : /Users/wendyhchun/challenges/ikea_reviews/app/controllers/items_controller.rb:102: syntax error, unexpected keyword_end, expecting end-of-input
+D, [2016-04-12T14:03:48.825532 #24393] DEBUG -- : []
+D, [2016-04-12T14:03:49.242142 #24393] DEBUG -- : /Users/wendyhchun/challenges/ikea_reviews/app/controllers/items_controller.rb:102: syntax error, unexpected keyword_end, expecting end-of-input
+D, [2016-04-12T14:03:49.243647 #24393] DEBUG -- : []
+D, [2016-04-12T14:03:49.712792 #24393] DEBUG -- : /Users/wendyhchun/challenges/ikea_reviews/app/controllers/items_controller.rb:102: syntax error, unexpected keyword_end, expecting end-of-input
+D, [2016-04-12T14:03:49.714566 #24393] DEBUG -- : []
+D, [2016-04-12T14:03:50.310107 #24393] DEBUG -- : /Users/wendyhchun/challenges/ikea_reviews/app/controllers/items_controller.rb:102: syntax error, unexpected keyword_end, expecting end-of-input
+D, [2016-04-12T14:03:50.311749 #24393] DEBUG -- : []
+D, [2016-04-12T14:03:50.732036 #24393] DEBUG -- : /Users/wendyhchun/challenges/ikea_reviews/app/controllers/items_controller.rb:102: syntax error, unexpected keyword_end, expecting end-of-input
+D, [2016-04-12T14:03:50.733668 #24393] DEBUG -- : []
+D, [2016-04-12T14:03:51.172214 #24393] DEBUG -- : /Users/wendyhchun/challenges/ikea_reviews/app/controllers/items_controller.rb:102: syntax error, unexpected keyword_end, expecting end-of-input
+D, [2016-04-12T14:03:51.174041 #24393] DEBUG -- : []
+D, [2016-04-12T14:03:51.644427 #24393] DEBUG -- : /Users/wendyhchun/challenges/ikea_reviews/app/controllers/items_controller.rb:102: syntax error, unexpected keyword_end, expecting end-of-input
+D, [2016-04-12T14:03:51.646179 #24393] DEBUG -- : []
+D, [2016-04-12T14:03:52.157681 #24393] DEBUG -- : /Users/wendyhchun/challenges/ikea_reviews/app/controllers/items_controller.rb:102: syntax error, unexpected keyword_end, expecting end-of-input
+D, [2016-04-12T14:03:52.159506 #24393] DEBUG -- : []
+D, [2016-04-12T14:03:52.906736 #24393] DEBUG -- : /Users/wendyhchun/challenges/ikea_reviews/app/controllers/items_controller.rb:102: syntax error, unexpected keyword_end, expecting end-of-input
+D, [2016-04-12T14:03:52.908526 #24393] DEBUG -- : []
+D, [2016-04-12T14:04:56.607972 #24519] DEBUG -- : undefined method `authorized' for #<ItemsController:0x007fc952cf64f8>
+D, [2016-04-12T14:04:56.618148 #24519] DEBUG -- : []
+D, [2016-04-12T14:04:57.801796 #24519] DEBUG -- : undefined method `authorized' for #<ItemsController:0x007fc9548bbc38>
+D, [2016-04-12T14:04:57.803324 #24519] DEBUG -- : []
+D, [2016-04-12T14:04:58.502147 #24519] DEBUG -- : undefined method `authorized' for #<ItemsController:0x007fc95499a438>
+D, [2016-04-12T14:04:58.503945 #24519] DEBUG -- : []
+D, [2016-04-12T14:04:58.970137 #24519] DEBUG -- : undefined method `authorized' for #<ItemsController:0x007fc952d9e6d0>
+D, [2016-04-12T14:04:58.971846 #24519] DEBUG -- : []
+D, [2016-04-12T14:04:59.452712 #24519] DEBUG -- : undefined method `authorized' for #<ItemsController:0x007fc94f7d0d50>
+D, [2016-04-12T14:04:59.454639 #24519] DEBUG -- : []
+D, [2016-04-12T14:05:01.711552 #24519] DEBUG -- : undefined method `authorized' for #<ItemsController:0x007fc955bd3a50>
+D, [2016-04-12T14:05:01.713553 #24519] DEBUG -- : []
